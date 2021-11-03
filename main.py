@@ -86,7 +86,7 @@ def konversi():
         def kalkulatorck(awal):
             c = awal
             c = float(c)
-            k = c-273.15
+            k = c+273.15
             return k
 
         def kalkulatorfk(awal):
